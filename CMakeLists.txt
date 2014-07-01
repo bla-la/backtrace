@@ -11,6 +11,7 @@ SET (BT_SOURCES
     src/backtrace.c
     src/timespec_diff_ns.c
     src/x86_64-bt.c
+    src/linuxRtGetProc.c
 )
 
 ADD_LIBRARY(bt SHARED ${BT_SOURCES})
